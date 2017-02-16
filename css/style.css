@@ -1,0 +1,140 @@
+/* font-family: "MyriadProRegular"; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin-top: 198px;
+    height: 2000px;
+    position: relative;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.container > div{
+    left:50%;
+    border: solid 2px black;
+    position: absolute;
+}
+
+#page1{
+    width: 519px;
+    height: 746px;
+    z-index: 3;
+    background-color: #EBEBEB;
+    margin-left:-263px;
+    padding: 30px 30px 20px 30px;
+
+}
+
+
+#page2{
+    width: 519px;
+    height: 746px;
+    z-index: 2;
+    background-color: #CCCCCC;
+    top: 20px;
+    margin-left:-243px;
+
+}
+#page3{
+    width: 519px;
+    height: 746px;
+    background-color: #ACACAC;
+    z-index: 1;
+    top:40px;
+    margin-left:-223px;
+}
+
+#bookmark1{
+    width: 107px;
+    height: 31px;
+    background-color: #F68E56;
+    border: solid 2px black;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    top: 39px;
+    right: -82px;
+}
+#bookmark2{
+    width: 95px;
+    height: 31px;
+    background-color: #39B54A;
+    border: solid 2px black;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    top: 39px;
+    right: -48px;
+}
+#bookmark3{
+    width: 95px;
+    height: 31px;
+    background-color: #00AEEF;
+    border: solid 2px black;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    top: 39px;
+    right: -16px;
+}
+
+
+h1{
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+h2{
+    clear: both;
+    padding-bottom: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+footer{
+    font-size: 9px;
+    padding-top: 10px;
+    clear: both;
+    text-align: center;
+}
+
+#coffee{
+    float: left;
+    padding: 0px 20px 18px 0px;
+
+}
+
+#img_table{
+    float: right;
+    padding: 0px 0px 20px 4px;
+}
+.jokesleft {
+    float: left;
+    padding-bottom: 14px;
+}
+.jokesright{
+    float: right;
+    padding-bottom: 14px;
+}
+#Social{
+    position: fixed;
+    bottom: 211px;
+    width: 87px;
+    right: 0px;
+    border: solid 1px black;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(251, 175, 93);
+}
+#Social > img{
+    margin: 10px 5px 10px 5px;
+}
+#Social > p{
+    padding: 5px 5px 0px 5px;
+}
+
+
+
