@@ -42,6 +42,7 @@ main{
     padding: 30px 30px 20px 30px;
 
 }
+
 #page2{
     background-color: #CCCCCC;
     left: -40px;
@@ -50,32 +51,41 @@ main{
 #page3{
     background-color: #ACACAC;
 }
-.bookmark{
+
+
+#page1:before{
     height: 31px;
     border: solid 2px black;
     border-radius: 0 10px 10px 0;
-}
-#bookmark1{
     width: 107px;
     background-color: #F68E56;
     position: absolute;
     top: 39px;
     right: -82px;
+    content: " ";
 }
-#bookmark2{
+#page2:before{
+    height: 31px;
+    border: solid 2px black;
+    border-radius: 0 10px 10px 0;
     width: 95px;
     background-color: #39B54A;
     position: absolute;
     top: 39px;
     right: -48px;
+    content: " ";
 }
-#bookmark3{
+#page3:before{
+    height: 31px;
+    border: solid 2px black;
+    border-radius: 0 10px 10px 0;
     width: 95px;
     height: 31px;
     background-color: #00AEEF;
     position: absolute;
     top: 39px;
     right: -16px;
+    content: " ";
 }
 h1{
     font-size: 24px;
