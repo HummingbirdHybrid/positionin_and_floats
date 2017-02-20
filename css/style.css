@@ -14,16 +14,21 @@ body{
     line-height: 1.2;
     text-align: left;
 }
+.container{
+    margin-left:-263px;
+}
 
 .container > div{
     left:50%;
     border: solid 2px black;
     position: absolute;
 }
-
-#page1{
+.page{
     width: 519px;
     height: 746px;
+
+}
+#page1{
     z-index: 3;
     background-color: #EBEBEB;
     margin-left:-263px;
@@ -31,10 +36,7 @@ body{
 
 }
 
-
 #page2{
-    width: 519px;
-    height: 746px;
     z-index: 2;
     background-color: #CCCCCC;
     top: 20px;
@@ -42,30 +44,27 @@ body{
 
 }
 #page3{
-    width: 519px;
-    height: 746px;
     background-color: #ACACAC;
     z-index: 1;
     top:40px;
     margin-left:-223px;
 }
-
-#bookmark1{
-    width: 107px;
+.bookmark{
     height: 31px;
-    background-color: #F68E56;
     border: solid 2px black;
     border-radius: 0 10px 10px 0;
+}
+#bookmark1{
+    width: 107px;
+    background-color: #F68E56;
     position: absolute;
     top: 39px;
     right: -82px;
 }
 #bookmark2{
     width: 95px;
-    height: 31px;
     background-color: #39B54A;
-    border: solid 2px black;
-    border-radius: 0 10px 10px 0;
+
     position: absolute;
     top: 39px;
     right: -48px;
@@ -74,8 +73,6 @@ body{
     width: 95px;
     height: 31px;
     background-color: #00AEEF;
-    border: solid 2px black;
-    border-radius: 0 10px 10px 0;
     position: absolute;
     top: 39px;
     right: -16px;
