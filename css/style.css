@@ -118,7 +118,7 @@ footer {
 
 #coffee {
     float: left;
-    padding: 0 20px 18px 0;
+    padding: 0 20px 15px 0;
 
 }
 
@@ -159,6 +159,7 @@ aside > p {
     padding: 0;
     margin: 0;
 }
+
 
 #navlist li { /*дополнительное задание*/
     background-repeat: no-repeat;
