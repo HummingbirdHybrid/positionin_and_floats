@@ -156,6 +156,8 @@ aside > p {
 #navlist {
     margin: 10px 5px 10px 5px;
     display: inline;
+    padding: 0;
+    margin: 0;
 }
 
 #navlist li { /*дополнительное задание*/
@@ -166,6 +168,7 @@ aside > p {
     height: 22px;
     vertical-align: top;
     float: left;
+
 }
 
 #facebook {
