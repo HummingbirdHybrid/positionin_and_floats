@@ -1,10 +1,12 @@
 /* font-family: "MyriadProRegular"; */
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
+    font-weight: normal;
 }
-body{
+
+body {
     margin-top: 198px;
     height: 2000px;
     position: relative;
@@ -14,54 +16,71 @@ body{
     line-height: 1.2;
     text-align: left;
 }
-.container{
-    margin-left:-263px;
+
+.flowPurification {
+    overflow: auto;
 }
 
-.container > div{
-    left:50%;
+.flowPurification:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+#PagesContainer {
+    margin-left: -263px;
+}
+
+#PagesContainer > div {
+    left: 50%;
     border: solid 2px black;
     position: absolute;
 }
-.page{
+
+.page {
     width: 519px;
     height: 746px;
 
 }
-#page1{
+
+#page1 {
     z-index: 3;
     background-color: #EBEBEB;
-    margin-left:-263px;
+    margin-left: -263px;
     padding: 30px 30px 20px 30px;
 
 }
 
-#page2{
+#page2 {
     z-index: 2;
     background-color: #CCCCCC;
     top: 20px;
-    margin-left:-243px;
+    margin-left: -243px;
 
 }
-#page3{
+
+#page3 {
     background-color: #ACACAC;
     z-index: 1;
-    top:40px;
-    margin-left:-223px;
+    top: 40px;
+    margin-left: -223px;
 }
-.bookmark{
+
+.bookmark { /*3. Закладки делать псевдоэлементами конечно можно, но лучше нет.*/
     height: 31px;
     border: solid 2px black;
     border-radius: 0 10px 10px 0;
 }
-#bookmark1{
+
+#bookmark1 {
     width: 107px;
     background-color: #F68E56;
     position: absolute;
     top: 39px;
     right: -82px;
 }
-#bookmark2{
+
+#bookmark2 {
     width: 95px;
     background-color: #39B54A;
 
@@ -69,7 +88,8 @@ body{
     top: 39px;
     right: -48px;
 }
-#bookmark3{
+
+#bookmark3 {
     width: 95px;
     height: 31px;
     background-color: #00AEEF;
@@ -78,60 +98,85 @@ body{
     right: -16px;
 }
 
-
-h1{
+h1 { /*4. Лишние стили. Например для <h1> висят font-weight: normal;  text-align: left; Хотя они по умолчанию такие же*/
     font-size: 24px;
     padding-bottom: 20px;
-    font-weight: normal;
-    text-align: left;
 }
-h2{
+
+h2 {
     clear: both;
     padding-bottom: 25px;
     font-size: 18px;
-    font-weight: normal;
 }
-footer{
+
+footer {
     font-size: 9px;
     padding-top: 10px;
-    clear: both;
+
     text-align: center;
 }
 
-#coffee{
+#coffee {
     float: left;
-    padding: 0px 20px 18px 0px;
+    padding: 0 20px 18px 0;
 
 }
 
-#img_table{
+#img_table {
     float: right;
-    padding: 0px 0px 20px 4px;
+    padding: 0 0 20px 4px;
 }
+
 .jokesleft {
     float: left;
     padding-bottom: 14px;
 }
-.jokesright{
+
+.jokesright {
     float: right;
     padding-bottom: 14px;
 }
-#Social{
+
+aside {
     position: fixed;
-    bottom: 211px;
-    width: 87px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
+    width: 90px;
     border: solid 1px black;
     font-size: 16px;
     text-align: center;
     background-color: rgb(251, 175, 93);
+    padding: 5px;
 }
-#Social > img{
+
+aside > p {
+    padding: 5px;
+}
+
+#navlist {
     margin: 10px 5px 10px 5px;
-}
-#Social > p{
-    padding: 5px 5px 0px 5px;
+    display: inline;
 }
 
+#navlist li { /*дополнительное задание*/
+    background-repeat: no-repeat;
+    background-image: url("../img/socialmediaiconsthec.png");
+    display: inline-block;
+    width: 26px;
+    height: 22px;
+    vertical-align: top;
+    float: left;
+}
 
+#facebook {
+    background-position: 0 0;
+}
+
+#twitter {
+    background-position: -26px 0;
+}
+
+#instagram {
+    background-position: -52px 0;
+}
 
